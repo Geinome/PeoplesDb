@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeoplesDb.Shared", "PeoplesDb.Shared\PeoplesDb.Shared.csproj", "{5C960301-81E0-45FE-BD8D-8C7C2C7BF221}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeoplesDb.Api.People", "PeoplesDb.Api.People\PeoplesDb.Api.People.csproj", "{5AD87149-9E16-4939-A3A7-D3D509FB52D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC1284F0-F707-4CCA-B018-5E605028758A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Nuget.config = Nuget.config
+		Readme.md = Readme.md
+		tye.yaml = tye.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{741B1B48-ECF7-4BB3-A0DE-6FE3D35098B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeoplesDb.Client", "PeoplesDb.Client\PeoplesDb.Client.csproj", "{2BAB4B14-F620-4FF8-B0B5-1E1A08564F32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeoplesDb.Api.People.Tests", "PeoplesDb.Api.People.Tests\PeoplesDb.Api.People.Tests.csproj", "{DFCA6F4F-69E1-4C04-BD08-2B9D975E8DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C960301-81E0-45FE-BD8D-8C7C2C7BF221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C960301-81E0-45FE-BD8D-8C7C2C7BF221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C960301-81E0-45FE-BD8D-8C7C2C7BF221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C960301-81E0-45FE-BD8D-8C7C2C7BF221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD87149-9E16-4939-A3A7-D3D509FB52D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD87149-9E16-4939-A3A7-D3D509FB52D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD87149-9E16-4939-A3A7-D3D509FB52D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD87149-9E16-4939-A3A7-D3D509FB52D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAB4B14-F620-4FF8-B0B5-1E1A08564F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAB4B14-F620-4FF8-B0B5-1E1A08564F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAB4B14-F620-4FF8-B0B5-1E1A08564F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAB4B14-F620-4FF8-B0B5-1E1A08564F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCA6F4F-69E1-4C04-BD08-2B9D975E8DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCA6F4F-69E1-4C04-BD08-2B9D975E8DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCA6F4F-69E1-4C04-BD08-2B9D975E8DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCA6F4F-69E1-4C04-BD08-2B9D975E8DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFCA6F4F-69E1-4C04-BD08-2B9D975E8DB1} = {741B1B48-ECF7-4BB3-A0DE-6FE3D35098B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBD53F3C-F760-46BE-AFA9-0452CFA5CE91}
+	EndGlobalSection
+EndGlobal
