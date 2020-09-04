@@ -23,8 +23,7 @@ namespace PeoplesDb.Client
 
             services.AddHttpClient<IPeopleClient, PeopleClient>(options =>
             {
-                options.BaseAddress = Configuration.GetServiceUri("person-api")
-                    ?? Configuration.GetSection("Urls").GetSection("Person-Api").Get<Uri>();
+                options.BaseAddress = Configuration.GetServiceUri("person-api");
             });
         }
 
