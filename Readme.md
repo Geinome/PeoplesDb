@@ -7,9 +7,9 @@ The structure is as followed:
 - PeoplesDb.Api.People: Api layer which manages a persons data and stores it in a common database.
 - PeoplesDb.Api.People.Tests: Unit testing project for the api layer
 
-# Building / Debug
+# Building / Running
 
-There are two ways to run and debug the application; One using `tye`, and the other using `dotnet`.
+There are two ways to build and run the application; One using `tye`, and the other using `dotnet`.
 First clone the repository and change directory:
 ```powershell
 git clone https://github.com/Geinome/PeoplesDb.git peoplesdb
@@ -63,7 +63,7 @@ It will take care of wiring up the service and client and any other services lik
 Tye also provides a dashboard which can be used to manage the individual applications it starts up.
 > Navigate to: `http://localhost:8000`
 
-# Running
+# Accessing the Client
 
 Regardless of how the application is built and run, it should always be available at `http://localhost:5000` or `https://localhost:5001`.
 The Api will either be available on `https://localhost:6001` or on a dynamic port assigned by Tye - If used.
