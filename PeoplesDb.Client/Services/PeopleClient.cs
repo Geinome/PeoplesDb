@@ -1,23 +1,15 @@
 ﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Threading.Tasks;
-using PeoplesDb.Shared;
+using PeoplesDb.Models;
 
 namespace PeoplesDb.Client.Services
 {
     public class PeopleClient : IPeopleClient
     {
         private const string EndpointPath = "person";
-
-        private readonly JsonSerializerOptions options = new JsonSerializerOptions()
-        {
-            PropertyNameCaseInsensitive = true,
-            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-        };
 
         private readonly HttpClient httpClient;
 

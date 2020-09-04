@@ -1,15 +1,14 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using PeoplesDb.Api.People.Controllers;
 using PeoplesDb.Api.People.Repositories;
-using PeoplesDb.Api.People.Tests.Utils;
+using PeoplesDb.Api.People.Tests.Data;
+using PeoplesDb.Models;
+using PeoplesDb.Utils;
 using Xunit;
-
-using Person = PeoplesDb.Shared.Person;
 
 namespace PeoplesDb.Api.People.Tests
 {

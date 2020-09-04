@@ -6,7 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PeoplesDb.Api.People.Models;
 using PeoplesDb.Api.People.Repositories;
-using System;
 
 namespace PeoplesDb.Api.People
 {

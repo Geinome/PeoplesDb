@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using PeoplesDb.Api.People.Models;
 using PeoplesDb.Api.People.Repositories;
-using PeoplesDb.Api.People.Tests.Utils;
-using PeoplesDb.Shared;
+using PeoplesDb.Api.People.Tests.Data;
+using PeoplesDb.Models;
+using PeoplesDb.Utils;
 using Xunit;
 
 namespace PeoplesDb.Api.People.Tests

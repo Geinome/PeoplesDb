@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using PeoplesDb.Client.Services;
-using PeoplesDb.Shared;
+using PeoplesDb.Models;
 
 namespace PeoplesDb.Client.Pages
 {

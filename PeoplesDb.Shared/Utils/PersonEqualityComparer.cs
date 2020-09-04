@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using PeoplesDb.Shared;
+using PeoplesDb.Models;
 
-namespace PeoplesDb.Api.People.Tests.Utils
+namespace PeoplesDb.Utils
 {
     public class PersonEqualityComparer : IEqualityComparer<Person>
     {

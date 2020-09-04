@@ -1,6 +1,6 @@
-﻿using PeoplesDb.Shared;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using PeoplesDb.Models;
 
 namespace PeoplesDb.Client.Services
 {

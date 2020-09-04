@@ -1,12 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using PeoplesDb.Api.People.Models;
-using PeoplesDb.Shared;
-using System;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using PeoplesDb.Api.People.Models;
+using PeoplesDb.Models;
 
 namespace PeoplesDb.Api.People.Repositories
 {

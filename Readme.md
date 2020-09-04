@@ -2,9 +2,10 @@
 Peoples DB is a simple CRUD application to manage a persons name within a database.
 The Architecture is loosely based on the microservice pattern and should be container ready.
 The structure is as followed:
-- PeoplesDb.Api.People: Api layer which manages a persons data and stores it in a common database.
 - PeoplesDb.Client: A simple razor client implementation which serves the CRUD interface to talk with the api.
 - PeoplesDb.Shared: Shared library of code - Likely this would be split up into different domains if more code is added.
+- PeoplesDb.Api.People: Api layer which manages a persons data and stores it in a common database.
+- PeoplesDb.Api.People.Tests: Unit testing project for the api layer
 
 # Building / Debug
 

@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{741B1B48
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeoplesDb.Client", "PeoplesDb.Client\PeoplesDb.Client.csproj", "{2BAB4B14-F620-4FF8-B0B5-1E1A08564F32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeoplesDb.Api.People.Tests", "PeoplesDb.Api.People.Tests\PeoplesDb.Api.People.Tests.csproj", "{DFCA6F4F-69E1-4C04-BD08-2B9D975E8DB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeoplesDb.Api.People.Tests", "PeoplesDb.Api.People.Tests\PeoplesDb.Api.People.Tests.csproj", "{DFCA6F4F-69E1-4C04-BD08-2B9D975E8DB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

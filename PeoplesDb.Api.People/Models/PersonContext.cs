@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PeoplesDb.Shared;
+using PeoplesDb.Models;
 
 namespace PeoplesDb.Api.People.Models
 {

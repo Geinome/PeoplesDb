@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Bogus;
 
-using Person = PeoplesDb.Shared.Person;
+using Person = PeoplesDb.Models.Person;
 
-namespace PeoplesDb.Api.People.Tests.Utils
+namespace PeoplesDb.Api.People.Tests.Data
 {
     public static class PersonGenerator
     {

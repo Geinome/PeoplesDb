@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using PeoplesDb.Api.People.Repositories;
-using PeoplesDb.Shared;
+using PeoplesDb.Models;
 
 namespace PeoplesDb.Api.People.Controllers
 {

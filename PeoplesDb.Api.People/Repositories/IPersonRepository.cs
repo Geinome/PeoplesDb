@@ -1,4 +1,4 @@
-﻿using PeoplesDb.Shared;
+﻿using PeoplesDb.Models;
 
 namespace PeoplesDb.Api.People.Repositories
 {
