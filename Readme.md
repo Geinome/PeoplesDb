@@ -39,6 +39,12 @@ Start-Process dotnet "run", "--project", ".\PeoplesDb.Client\PeoplesDb.Client.cs
 
 [Tye](https://github.com/dotnet/tye) is an experimental tool by Microsoft which provides a way to build, debug and deploy containerized applications/services. Tye makes it much easier to build and develop microservice architectures. 
 
+Firstly to use Tye you need to install the tool as a global .Net tool:
+```powershell
+dotnet tool install -g Microsoft.Tye --version "0.4.0-alpha.20371.1"
+```
+>For more information see: [Tye getting started](https://github.com/dotnet/tye/blob/master/docs/getting_started.md)
+
 To build using tye you can simply do:
 ```powershell
 tye build
