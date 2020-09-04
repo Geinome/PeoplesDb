@@ -5,15 +5,19 @@
 }
 <h1>@ViewData["Title"]</h1>
 <form method="post">
-    <div class="row">
-        <div class="col">
-            <label for="firstName">First Name</label>
-            <input asp-for="Person.FirstName" class="form-control" id="firstName" aria-describedby="firstName" required>
+    <div class="col">
+        <div class="row">
+            <div class="col">
+                <label for="firstName">First Name</label>
+                <input asp-for="Person.FirstName" class="form-control" id="firstName" aria-describedby="firstName" required>
+            </div>
+            <div class="col">
+                <label for="lastName">Last Name</label>
+                <input asp-for="Person.LastName" class="form-control" id="lastName" aria-describedby="lastName" required>
+            </div>
         </div>
-        <div class="col">
-            <label for="lastName">Last Name</label>
-            <input asp-for="Person.LastName" class="form-control" id="lastName" aria-describedby="lastName" required>
+        <div class="row mt-3 mx-1">
+            <button type="submit" class="btn btn-outline-primary">Submit</button>
         </div>
     </div>
-    <button type="submit" class="btn btn-primary">Create</button>
 </form>

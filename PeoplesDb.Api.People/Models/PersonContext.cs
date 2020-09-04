@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using PeoplesDb.Models;
 
 namespace PeoplesDb.Api.People.Models
@@ -15,12 +14,9 @@ namespace PeoplesDb.Api.People.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            EntityTypeBuilder<Person> personEntity = modelBuilder.Entity<Person>();
-            personEntity.HasKey(p => p.Id);
-            personEntity.Property(b => b.FirstName)
-                .IsRequired();
-            personEntity.Property(b => b.LastName)
-                .IsRequired();
+            modelBuilder.Entity<Person>()
+                .Property(p => p.Created)
+                .HasDefaultValueSql("getdate()");
         }
     }
 }

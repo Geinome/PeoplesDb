@@ -25,7 +25,15 @@ namespace PeoplesDb.Api.People
             services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddDbContext<PersonContext>(opt =>
             {
-                opt.UseInMemoryDatabase("People");
+                string connectionString = Configuration.GetConnectionString("PeopleContext");
+                if(!string.IsNullOrEmpty(connectionString))
+                {
+                    opt.UseSqlServer(connectionString);
+                }
+                else
+                {
+                    opt.UseInMemoryDatabase("PeopleContext");
+                }
             });
         }
 

@@ -6,18 +6,35 @@
 <h1>@ViewData["Title"]</h1>
 
 <form method="post">
-    <div class="form-group">
-        <label for="id">Id</label>
-        <input type="hidden" asp-for="Person.Id" class="form-control" id="id" aria-describedby="id">
-        <span class="form-control text-muted">@Model.Person.Id</span>
+    <div class="col">
+        <div class="row">
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="id">Id</label>
+                        <input type="hidden" asp-for="Person.Id" class="form-control" id="id" aria-describedby="id">
+                        <span class="form-control text-muted">@Model.Person.Id</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="createdDate">Created Date</label>
+                        <input type="hidden" asp-for="Person.Created" class="form-control" id="createdDate" aria-describedby="createdDate">
+                        <span class="form-control text-muted">@Model.Person.Created</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input asp-for="Person.FirstName" class="form-control" id="firstName" aria-describedby="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input asp-for="Person.LastName" class="form-control" id="lastName" aria-describedby="lastName" required>
+            </div>
+        </div>
+        <div class="row mt-3 mx-1">
+            <button type="submit" class="btn btn-outline-primary">Submit</button>
+        </div>
     </div>
-    <div class="form-group">
-        <label for="firstName">First Name</label>
-        <input asp-for="Person.FirstName" class="form-control" id="firstName" aria-describedby="firstName" required>
-    </div>
-    <div class="form-group">
-        <label for="lastName">Last Name</label>
-        <input asp-for="Person.LastName" class="form-control" id="lastName" aria-describedby="lastName" required>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
 </form>

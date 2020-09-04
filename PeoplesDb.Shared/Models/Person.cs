@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace PeoplesDb.Models
 {
@@ -11,5 +12,7 @@ namespace PeoplesDb.Models
 
         [Required]
         public string LastName { get; set; }
+
+        public DateTime Created { get; set; }
     }
 }
